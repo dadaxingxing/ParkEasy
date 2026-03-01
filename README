@@ -1,0 +1,37 @@
+# 🚗 ParkEasy
+**Stop circling LA. Find your spot instantly.**
+
+> **The Pitch:** ParkEasy eliminates "parking anxiety" in Los Angeles by providing a real-time map of available street parking. We use live sensor data to find your spot instantly, saving you time and reducing emissions.
+
+---
+
+## 💡 The Problem
+Drivers in LA spend an average of 20 minutes circling for a spot. This causes frustration, wasted time, and unnecessary environmental impact from idling engines.
+
+## 📍 What it does
+* **Live Mapping:** Visualizes vacant and occupied parking meters across Los Angeles.
+* **Top 3 Recommendations:** Instantly identifies the three closest open spots to your destination.
+* **Precision Routing:** Uses the **Haversine Formula** for accurate GPS-to-destination distance calculation.
+
+## 🛠️ Technical Stack
+* **Frontend:** React, Next.js 16 (Turbopack), TypeScript.
+* **Styling:** Tailwind CSS (Apple-style Glassmorphism UI).
+* **Maps:** Azure Maps API (Core Engine).
+* **Data:** LADOT Live Parking API (Socrata SODA).
+
+## 🚧 Challenges & Wins
+* **API Management:** Navigated rate limits and caching for the LADOT dataset to ensure snappy searches.
+* **Math Logic:** Implemented great-circle distance math to solve "as-the-crow-flies" proximity.
+* **Teamwork:** Built from scratch in 48 hours with a newly formed team, focusing on a high-value MVP.
+
+## 🚀 What's Next
+* **Predictive AI:** Forecast parking availability 30–60 minutes in advance.
+* **EV Filters:** Locate spots with integrated charging stations.
+* **IoT Expansion:** Integration with smart-city infrastructure and autonomous vehicle sensors.
+
+---
+
+### 💻 Built With
+**React | Next.js | TypeScript | Azure Maps | Tailwind CSS**
+
+[View Repo](https://github.com/dadaxingxing/ParkEasy)
