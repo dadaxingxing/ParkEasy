@@ -1,5 +1,12 @@
-# 🚗 ParkEasy
-**Stop circling LA. Find your spot instantly.**
+<div align="center">
+  
+  <h1>🚗 ParkEasy</h1>
+  <p><b>Stop circling LA. Find your spot instantly.</b></p>
+
+  <a href="https://github.com/dadaxingxing/ParkEasy"><strong>Explore the docs »</strong></a>
+  <br />
+  <br />
+</div>
 
 > **The Pitch:** ParkEasy eliminates "parking anxiety" in Los Angeles by providing a real-time map of available street parking. We use live sensor data to find your spot instantly, saving you time and reducing emissions.
 
@@ -13,11 +20,16 @@ Drivers in LA spend an average of 20 minutes circling for a spot. This causes fr
 * **Top 3 Recommendations:** Instantly identifies the three closest open spots to your destination.
 * **Precision Routing:** Uses the **Haversine Formula** for accurate GPS-to-destination distance calculation.
 
-## 🛠️ Technical Stack
-* **Frontend:** React, Next.js 16 (Turbopack), TypeScript.
-* **Styling:** Tailwind CSS (Apple-style Glassmorphism UI).
-* **Maps:** Azure Maps API (Core Engine).
-* **Data:** LADOT Live Parking API (Socrata SODA).
+## 💻 Built With
+<div align="center">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure Maps" />
+</div>
+
+<br />
 
 ## 🚧 Challenges & Wins
 * **API Management:** Navigated rate limits and caching for the LADOT dataset to ensure snappy searches.
@@ -30,8 +42,4 @@ Drivers in LA spend an average of 20 minutes circling for a spot. This causes fr
 * **IoT Expansion:** Integration with smart-city infrastructure and autonomous vehicle sensors.
 
 ---
-
-### 💻 Built With
-**React | Next.js | TypeScript | Azure Maps | Tailwind CSS**
-
-[View Repo](https://github.com/dadaxingxing/ParkEasy)
+*Built with ❤️ for the LA Hackathon*
